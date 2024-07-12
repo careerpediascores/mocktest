@@ -287,7 +287,7 @@
 
         <!-- Google Form Embed -->
         <div class="form-container">
-	<!--             <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfOKrxu_vrYrB3O5nbWVVr4jemD7J7yYrOZki0ggiUI9ClT9w/viewform?embedded=true" width="100%" height="100%" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe> -->
+	<!-- <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfOKrxu_vrYrB3O5nbWVVr4jemD7J7yYrOZki0ggiUI9ClT9w/viewform?embedded=true" width="100%" height="100%" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe> -->
 	<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSf8xH-NoXEMe6bNEuDjWJVRHl4KWN1dR20z6VovP6bkDpVtsg/viewform?embedded=true" width="100%" height="100%" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>        
 	
         </div>
@@ -316,7 +316,8 @@
 		
 		//var timeLimit = 60000;
         //var timeLimit = 15 * 60 * 1000 + 30 * 1000;
-	var timeLimit = 1800000;
+	//var timeLimit = 1800000;
+	var timeLimit = 3000000; // 50 minutes in milliseconds
         var endTime = Date.now() + timeLimit;
 
         var countdownDisplay = document.getElementById('countdown');
